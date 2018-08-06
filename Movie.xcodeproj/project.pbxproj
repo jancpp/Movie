@@ -17,25 +17,25 @@
 		3D0B127221141E0900AB48E6 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B127121141E0900AB48E6 /* CoreDataStack.swift */; };
 		3D0B127521141FA900AB48E6 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B127321141FA900AB48E6 /* Movie+CoreDataClass.swift */; };
 		3D0B127621141FA900AB48E6 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B127421141FA900AB48E6 /* Movie+CoreDataProperties.swift */; };
+		3D5560262118B72400CEF1A4 /* madmax.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5560162118B72300CEF1A4 /* madmax.png */; };
+		3D5560272118B72400CEF1A4 /* batman.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5560172118B72300CEF1A4 /* batman.png */; };
+		3D5560282118B72400CEF1A4 /* xmen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5560182118B72300CEF1A4 /* xmen.png */; };
+		3D5560292118B72400CEF1A4 /* transformer.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5560192118B72300CEF1A4 /* transformer.png */; };
+		3D55602A2118B72400CEF1A4 /* jurassic.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D55601A2118B72300CEF1A4 /* jurassic.png */; };
+		3D55602B2118B72400CEF1A4 /* lordoftherings.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D55601B2118B72300CEF1A4 /* lordoftherings.png */; };
+		3D55602C2118B72400CEF1A4 /* ultimatepixar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D55601C2118B72300CEF1A4 /* ultimatepixar.png */; };
+		3D55602D2118B72400CEF1A4 /* pirates.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D55601D2118B72400CEF1A4 /* pirates.png */; };
+		3D55602E2118B72400CEF1A4 /* starwars.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D55601E2118B72400CEF1A4 /* starwars.png */; };
+		3D55602F2118B72400CEF1A4 /* ted2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D55601F2118B72400CEF1A4 /* ted2.png */; };
+		3D5560302118B72400CEF1A4 /* harrypotter.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5560202118B72400CEF1A4 /* harrypotter.png */; };
+		3D5560312118B72400CEF1A4 /* terminator.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5560212118B72400CEF1A4 /* terminator.png */; };
+		3D5560322118B72400CEF1A4 /* pixar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5560222118B72400CEF1A4 /* pixar.png */; };
+		3D5560332118B72400CEF1A4 /* blackstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5560232118B72400CEF1A4 /* blackstar.png */; };
+		3D5560342118B72400CEF1A4 /* startrek.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5560242118B72400CEF1A4 /* startrek.png */; };
+		3D5560352118B72400CEF1A4 /* yellowstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5560252118B72400CEF1A4 /* yellowstar.png */; };
 		3D9F2C66211639E7006EFBD7 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F2C65211639E7006EFBD7 /* MovieService.swift */; };
 		3D9F2C682116B391006EFBD7 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F2C672116B391006EFBD7 /* MovieTableViewController.swift */; };
 		3D9F2C6A2116B3C0006EFBD7 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F2C692116B3C0006EFBD7 /* MovieTableViewCell.swift */; };
-		3DEC601F21189AFC00AE212B /* startrek.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC600F21189AFA00AE212B /* startrek.png */; };
-		3DEC602021189AFC00AE212B /* lordoftherings.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC601021189AFA00AE212B /* lordoftherings.png */; };
-		3DEC602121189AFC00AE212B /* transformer.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC601121189AFA00AE212B /* transformer.png */; };
-		3DEC602221189AFC00AE212B /* ted2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC601221189AFA00AE212B /* ted2.png */; };
-		3DEC602321189AFC00AE212B /* pixar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC601321189AFB00AE212B /* pixar.png */; };
-		3DEC602421189AFC00AE212B /* terminator.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC601421189AFB00AE212B /* terminator.png */; };
-		3DEC602521189AFC00AE212B /* starwars.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC601521189AFB00AE212B /* starwars.png */; };
-		3DEC602621189AFC00AE212B /* yellowstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC601621189AFB00AE212B /* yellowstar.png */; };
-		3DEC602721189AFC00AE212B /* jurassic.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC601721189AFB00AE212B /* jurassic.png */; };
-		3DEC602821189AFC00AE212B /* harrypotter.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC601821189AFB00AE212B /* harrypotter.png */; };
-		3DEC602921189AFC00AE212B /* blackstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC601921189AFB00AE212B /* blackstar.png */; };
-		3DEC602A21189AFC00AE212B /* xmen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC601A21189AFB00AE212B /* xmen.png */; };
-		3DEC602B21189AFC00AE212B /* pirates.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC601B21189AFB00AE212B /* pirates.png */; };
-		3DEC602C21189AFC00AE212B /* batman.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC601C21189AFB00AE212B /* batman.png */; };
-		3DEC602D21189AFC00AE212B /* ultimatepixar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC601D21189AFB00AE212B /* ultimatepixar.png */; };
-		3DEC602E21189AFC00AE212B /* madmax.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC601E21189AFC00AE212B /* madmax.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,25 +51,25 @@
 		3D0B127121141E0900AB48E6 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		3D0B127321141FA900AB48E6 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
 		3D0B127421141FA900AB48E6 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3D5560162118B72300CEF1A4 /* madmax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = madmax.png; sourceTree = "<group>"; };
+		3D5560172118B72300CEF1A4 /* batman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batman.png; sourceTree = "<group>"; };
+		3D5560182118B72300CEF1A4 /* xmen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xmen.png; sourceTree = "<group>"; };
+		3D5560192118B72300CEF1A4 /* transformer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transformer.png; sourceTree = "<group>"; };
+		3D55601A2118B72300CEF1A4 /* jurassic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jurassic.png; sourceTree = "<group>"; };
+		3D55601B2118B72300CEF1A4 /* lordoftherings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lordoftherings.png; sourceTree = "<group>"; };
+		3D55601C2118B72300CEF1A4 /* ultimatepixar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ultimatepixar.png; sourceTree = "<group>"; };
+		3D55601D2118B72400CEF1A4 /* pirates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pirates.png; sourceTree = "<group>"; };
+		3D55601E2118B72400CEF1A4 /* starwars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starwars.png; sourceTree = "<group>"; };
+		3D55601F2118B72400CEF1A4 /* ted2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ted2.png; sourceTree = "<group>"; };
+		3D5560202118B72400CEF1A4 /* harrypotter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harrypotter.png; sourceTree = "<group>"; };
+		3D5560212118B72400CEF1A4 /* terminator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terminator.png; sourceTree = "<group>"; };
+		3D5560222118B72400CEF1A4 /* pixar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pixar.png; sourceTree = "<group>"; };
+		3D5560232118B72400CEF1A4 /* blackstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackstar.png; sourceTree = "<group>"; };
+		3D5560242118B72400CEF1A4 /* startrek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startrek.png; sourceTree = "<group>"; };
+		3D5560252118B72400CEF1A4 /* yellowstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowstar.png; sourceTree = "<group>"; };
 		3D9F2C65211639E7006EFBD7 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		3D9F2C672116B391006EFBD7 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
 		3D9F2C692116B3C0006EFBD7 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
-		3DEC600F21189AFA00AE212B /* startrek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startrek.png; path = "Movie/supporting files/images/startrek.png"; sourceTree = SOURCE_ROOT; };
-		3DEC601021189AFA00AE212B /* lordoftherings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lordoftherings.png; path = "Movie/supporting files/images/lordoftherings.png"; sourceTree = SOURCE_ROOT; };
-		3DEC601121189AFA00AE212B /* transformer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transformer.png; path = "Movie/supporting files/images/transformer.png"; sourceTree = SOURCE_ROOT; };
-		3DEC601221189AFA00AE212B /* ted2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ted2.png; path = "Movie/supporting files/images/ted2.png"; sourceTree = SOURCE_ROOT; };
-		3DEC601321189AFB00AE212B /* pixar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pixar.png; path = "Movie/supporting files/images/pixar.png"; sourceTree = SOURCE_ROOT; };
-		3DEC601421189AFB00AE212B /* terminator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = terminator.png; path = "Movie/supporting files/images/terminator.png"; sourceTree = SOURCE_ROOT; };
-		3DEC601521189AFB00AE212B /* starwars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = starwars.png; path = "Movie/supporting files/images/starwars.png"; sourceTree = SOURCE_ROOT; };
-		3DEC601621189AFB00AE212B /* yellowstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowstar.png; path = "Movie/supporting files/images/yellowstar.png"; sourceTree = SOURCE_ROOT; };
-		3DEC601721189AFB00AE212B /* jurassic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jurassic.png; path = "Movie/supporting files/images/jurassic.png"; sourceTree = SOURCE_ROOT; };
-		3DEC601821189AFB00AE212B /* harrypotter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = harrypotter.png; path = "Movie/supporting files/images/harrypotter.png"; sourceTree = SOURCE_ROOT; };
-		3DEC601921189AFB00AE212B /* blackstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackstar.png; path = "Movie/supporting files/images/blackstar.png"; sourceTree = SOURCE_ROOT; };
-		3DEC601A21189AFB00AE212B /* xmen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xmen.png; path = "Movie/supporting files/images/xmen.png"; sourceTree = SOURCE_ROOT; };
-		3DEC601B21189AFB00AE212B /* pirates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pirates.png; path = "Movie/supporting files/images/pirates.png"; sourceTree = SOURCE_ROOT; };
-		3DEC601C21189AFB00AE212B /* batman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = batman.png; path = "Movie/supporting files/images/batman.png"; sourceTree = SOURCE_ROOT; };
-		3DEC601D21189AFB00AE212B /* ultimatepixar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ultimatepixar.png; path = "Movie/supporting files/images/ultimatepixar.png"; sourceTree = SOURCE_ROOT; };
-		3DEC601E21189AFC00AE212B /* madmax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = madmax.png; path = "Movie/supporting files/images/madmax.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,21 +102,16 @@
 		3D0B12532113663200AB48E6 /* Movie */ = {
 			isa = PBXGroup;
 			children = (
-				3D0B12692113665E00AB48E6 /* model */,
+				3D0B12692113665E00AB48E6 /* Model */,
 				3D9F2C6B2116B3DD006EFBD7 /* View */,
 				3D9F2C6C2116B3E9006EFBD7 /* Controller */,
-				3D0B126A2113668B00AB48E6 /* supporting files */,
-				3D0B12542113663200AB48E6 /* AppDelegate.swift */,
-				3D0B12582113663200AB48E6 /* Main.storyboard */,
-				3D0B125E2113663300AB48E6 /* Assets.xcassets */,
-				3D0B12602113663300AB48E6 /* LaunchScreen.storyboard */,
-				3D0B12632113663300AB48E6 /* Info.plist */,
-				3D9F2C65211639E7006EFBD7 /* MovieService.swift */,
+				3DEC602F2118B06200AE212B /* Service */,
+				3D0B126A2113668B00AB48E6 /* Supporting Files */,
 			);
 			path = Movie;
 			sourceTree = "<group>";
 		};
-		3D0B12692113665E00AB48E6 /* model */ = {
+		3D0B12692113665E00AB48E6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				3D0B127321141FA900AB48E6 /* Movie+CoreDataClass.swift */,
@@ -124,22 +119,50 @@
 				3D0B125B2113663200AB48E6 /* Movie.xcdatamodeld */,
 				3D0B127121141E0900AB48E6 /* CoreDataStack.swift */,
 			);
-			path = model;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		3D0B126A2113668B00AB48E6 /* supporting files */ = {
+		3D0B126A2113668B00AB48E6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3DE4F4CA2117FE9700CC54DA /* images */,
+				3D4CDB1D2118B190001D3633 /* Images */,
+				3D0B12542113663200AB48E6 /* AppDelegate.swift */,
+				3D0B125E2113663300AB48E6 /* Assets.xcassets */,
+				3D0B12602113663300AB48E6 /* LaunchScreen.storyboard */,
+				3D0B12632113663300AB48E6 /* Info.plist */,
 				3D0B126C2113686000AB48E6 /* movies.json */,
 				3D0B126D2113686000AB48E6 /* UserRating.swift */,
 			);
-			path = "supporting files";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D4CDB1D2118B190001D3633 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3D5560172118B72300CEF1A4 /* batman.png */,
+				3D5560232118B72400CEF1A4 /* blackstar.png */,
+				3D5560202118B72400CEF1A4 /* harrypotter.png */,
+				3D55601A2118B72300CEF1A4 /* jurassic.png */,
+				3D55601B2118B72300CEF1A4 /* lordoftherings.png */,
+				3D5560162118B72300CEF1A4 /* madmax.png */,
+				3D55601D2118B72400CEF1A4 /* pirates.png */,
+				3D5560222118B72400CEF1A4 /* pixar.png */,
+				3D5560242118B72400CEF1A4 /* startrek.png */,
+				3D55601E2118B72400CEF1A4 /* starwars.png */,
+				3D55601F2118B72400CEF1A4 /* ted2.png */,
+				3D5560212118B72400CEF1A4 /* terminator.png */,
+				3D5560192118B72300CEF1A4 /* transformer.png */,
+				3D55601C2118B72300CEF1A4 /* ultimatepixar.png */,
+				3D5560182118B72300CEF1A4 /* xmen.png */,
+				3D5560252118B72400CEF1A4 /* yellowstar.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		3D9F2C6B2116B3DD006EFBD7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3D0B12582113663200AB48E6 /* Main.storyboard */,
 				3D9F2C692116B3C0006EFBD7 /* MovieTableViewCell.swift */,
 			);
 			path = View;
@@ -153,28 +176,12 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		3DE4F4CA2117FE9700CC54DA /* images */ = {
+		3DEC602F2118B06200AE212B /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				3DEC601C21189AFB00AE212B /* batman.png */,
-				3DEC601921189AFB00AE212B /* blackstar.png */,
-				3DEC601821189AFB00AE212B /* harrypotter.png */,
-				3DEC601721189AFB00AE212B /* jurassic.png */,
-				3DEC601021189AFA00AE212B /* lordoftherings.png */,
-				3DEC601E21189AFC00AE212B /* madmax.png */,
-				3DEC601B21189AFB00AE212B /* pirates.png */,
-				3DEC601321189AFB00AE212B /* pixar.png */,
-				3DEC600F21189AFA00AE212B /* startrek.png */,
-				3DEC601521189AFB00AE212B /* starwars.png */,
-				3DEC601221189AFA00AE212B /* ted2.png */,
-				3DEC601421189AFB00AE212B /* terminator.png */,
-				3DEC601121189AFA00AE212B /* transformer.png */,
-				3DEC601D21189AFB00AE212B /* ultimatepixar.png */,
-				3DEC601A21189AFB00AE212B /* xmen.png */,
-				3DEC601621189AFB00AE212B /* yellowstar.png */,
+				3D9F2C65211639E7006EFBD7 /* MovieService.swift */,
 			);
-			name = images;
-			path = "New Group";
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,26 +242,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DEC602B21189AFC00AE212B /* pirates.png in Resources */,
-				3DEC602E21189AFC00AE212B /* madmax.png in Resources */,
 				3D0B12622113663300AB48E6 /* LaunchScreen.storyboard in Resources */,
-				3DEC602221189AFC00AE212B /* ted2.png in Resources */,
-				3DEC601F21189AFC00AE212B /* startrek.png in Resources */,
+				3D5560262118B72400CEF1A4 /* madmax.png in Resources */,
+				3D55602F2118B72400CEF1A4 /* ted2.png in Resources */,
+				3D5560332118B72400CEF1A4 /* blackstar.png in Resources */,
+				3D5560272118B72400CEF1A4 /* batman.png in Resources */,
+				3D55602B2118B72400CEF1A4 /* lordoftherings.png in Resources */,
 				3D0B126F2113686000AB48E6 /* movies.json in Resources */,
-				3DEC602821189AFC00AE212B /* harrypotter.png in Resources */,
-				3DEC602C21189AFC00AE212B /* batman.png in Resources */,
-				3DEC602521189AFC00AE212B /* starwars.png in Resources */,
+				3D5560312118B72400CEF1A4 /* terminator.png in Resources */,
+				3D5560322118B72400CEF1A4 /* pixar.png in Resources */,
 				3D0B125F2113663300AB48E6 /* Assets.xcassets in Resources */,
-				3DEC602421189AFC00AE212B /* terminator.png in Resources */,
-				3DEC602021189AFC00AE212B /* lordoftherings.png in Resources */,
-				3DEC602A21189AFC00AE212B /* xmen.png in Resources */,
+				3D55602D2118B72400CEF1A4 /* pirates.png in Resources */,
+				3D5560302118B72400CEF1A4 /* harrypotter.png in Resources */,
+				3D5560292118B72400CEF1A4 /* transformer.png in Resources */,
 				3D0B125A2113663200AB48E6 /* Main.storyboard in Resources */,
-				3DEC602621189AFC00AE212B /* yellowstar.png in Resources */,
-				3DEC602921189AFC00AE212B /* blackstar.png in Resources */,
-				3DEC602D21189AFC00AE212B /* ultimatepixar.png in Resources */,
-				3DEC602321189AFC00AE212B /* pixar.png in Resources */,
-				3DEC602721189AFC00AE212B /* jurassic.png in Resources */,
-				3DEC602121189AFC00AE212B /* transformer.png in Resources */,
+				3D5560342118B72400CEF1A4 /* startrek.png in Resources */,
+				3D5560352118B72400CEF1A4 /* yellowstar.png in Resources */,
+				3D5560282118B72400CEF1A4 /* xmen.png in Resources */,
+				3D55602E2118B72400CEF1A4 /* starwars.png in Resources */,
+				3D55602C2118B72400CEF1A4 /* ultimatepixar.png in Resources */,
+				3D55602A2118B72400CEF1A4 /* jurassic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5SQFG95Y4R;
-				INFOPLIST_FILE = Movie/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Movie/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,7 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5SQFG95Y4R;
-				INFOPLIST_FILE = Movie/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Movie/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
