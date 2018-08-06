@@ -14,6 +14,8 @@ class MovieTableViewController: UITableViewController {
     private var coreData = CoreDataStack()
     private var fetchedResultsController: NSFetchedResultsController<Movie>?
     private var movieService: MovieService?
+    
+    
     @IBAction func resetRatingsAction(_ sender: UIBarButtonItem) {
         movieService?.resetAllRatings(completion: { [weak self] (success) in
             if success {
@@ -71,20 +73,30 @@ class MovieTableViewController: UITableViewController {
         if editingStyle == .delete {
             guard let movieToDelete = fetchedResultsController?.object(at: indexPath) else { return }
             
-            let confirmDeleteAlertController = UIAlertController(title: "Remove Movie", message: "Are you sure you would like to delete \"\(movieToDelete.title ?? "")\"", preferredStyle: .actionSheet)
+            let confirmDeleteAlertController = UIAlertController(title: "Remove Movie", message: "Are you sure you would like to delete \"\(movieToDelete.title ?? "")\"?", preferredStyle: .actionSheet)
             
-            let deleteActoin = UIAlertAction(title: "Delete", style: .default) { (action) in
-                self.coreData.persistentContainer.viewContext.delete(movieToDelete)
-                self.coreData.saveContext()
+            let deleteAction = UIAlertAction(title: "Delete", style: .default) { [weak self] (action: UIAlertAction) in
+                self?.coreData.persistentContainer.viewContext.delete(movieToDelete)
+                self?.coreData.saveContext()
             }
             
             let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
             
-            confirmDeleteAlertController.addAction(deleteActoin)
+            confirmDeleteAlertController.addAction(deleteAction)
             confirmDeleteAlertController.addAction(cancelAction)
             
             present(confirmDeleteAlertController, animated: true, completion: nil)
         }
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if let sections = fetchedResultsController?.sections {
+            let currentSection = sections[section]
+            
+            return currentSection.name
+        }
+        
+        return ""
     }
     
     // MARK: - Private
@@ -110,7 +122,6 @@ extension MovieTableViewController: NSFetchedResultsControllerDelegate {
             
         case .delete:
             tableView.deleteRows(at: [indexPath], with: .fade)
-            
         default:
             break
         }
