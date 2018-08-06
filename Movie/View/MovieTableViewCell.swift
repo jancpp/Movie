@@ -15,6 +15,13 @@ class MovieTableViewCell: UITableViewCell {
     @IBOutlet weak var userRating: UserRating!
     @IBOutlet weak var movieFormatLabel: UILabel!
     
+    var userRatingHandler: ((_ rating: Int) -> Void)? {
+        didSet {
+            if let userRatingHandler = userRatingHandler {
+                userRating.ratingUpdateHandler = userRatingHandler
+            }
+        }
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -27,7 +34,7 @@ class MovieTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func cofigureCell(movie: Movie) {
+    func configureCell(movie: Movie) {
         movieTitleLabel.text = movie.title
         movieFormatLabel.text = movie.format
         userRating.rating = Int(movie.userRating)

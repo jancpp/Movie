@@ -12,7 +12,6 @@
 		3D0B125D2113663200AB48E6 /* Movie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B125B2113663200AB48E6 /* Movie.xcdatamodeld */; };
 		3D0B125F2113663300AB48E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0B125E2113663300AB48E6 /* Assets.xcassets */; };
 		3D0B12622113663300AB48E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0B12602113663300AB48E6 /* LaunchScreen.storyboard */; };
-		3D0B126E2113686000AB48E6 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 3D0B126B2113686000AB48E6 /* images */; };
 		3D0B126F2113686000AB48E6 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D0B126C2113686000AB48E6 /* movies.json */; };
 		3D0B12702113686000AB48E6 /* UserRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B126D2113686000AB48E6 /* UserRating.swift */; };
 		3D0B127221141E0900AB48E6 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B127121141E0900AB48E6 /* CoreDataStack.swift */; };
@@ -21,6 +20,19 @@
 		3D9F2C66211639E7006EFBD7 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F2C65211639E7006EFBD7 /* MovieService.swift */; };
 		3D9F2C682116B391006EFBD7 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F2C672116B391006EFBD7 /* MovieTableViewController.swift */; };
 		3D9F2C6A2116B3C0006EFBD7 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F2C692116B3C0006EFBD7 /* MovieTableViewCell.swift */; };
+		3DE4F4DE2117FEEC00CC54DA /* batman.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE4F4D12117FEEB00CC54DA /* batman.png */; };
+		3DE4F4DF2117FEEC00CC54DA /* blackstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE4F4D22117FEEB00CC54DA /* blackstar.png */; };
+		3DE4F4E02117FEEC00CC54DA /* xmen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE4F4D32117FEEB00CC54DA /* xmen.png */; };
+		3DE4F4E12117FEEC00CC54DA /* jurassic.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE4F4D42117FEEB00CC54DA /* jurassic.png */; };
+		3DE4F4E22117FEEC00CC54DA /* lordoftherings.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE4F4D52117FEEB00CC54DA /* lordoftherings.png */; };
+		3DE4F4E32117FEEC00CC54DA /* pirates.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE4F4D62117FEEB00CC54DA /* pirates.png */; };
+		3DE4F4E42117FEEC00CC54DA /* ultimatepixar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE4F4D72117FEEC00CC54DA /* ultimatepixar.png */; };
+		3DE4F4E52117FEEC00CC54DA /* madmax.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE4F4D82117FEEC00CC54DA /* madmax.png */; };
+		3DE4F4E62117FEEC00CC54DA /* pixar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE4F4D92117FEEC00CC54DA /* pixar.png */; };
+		3DE4F4E72117FEEC00CC54DA /* terminator.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE4F4DA2117FEEC00CC54DA /* terminator.png */; };
+		3DE4F4E82117FEEC00CC54DA /* starwars.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE4F4DB2117FEEC00CC54DA /* starwars.png */; };
+		3DE4F4E92117FEEC00CC54DA /* transformer.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE4F4DC2117FEEC00CC54DA /* transformer.png */; };
+		3DE4F4EA2117FEEC00CC54DA /* yellowstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE4F4DD2117FEEC00CC54DA /* yellowstar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +43,6 @@
 		3D0B125E2113663300AB48E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D0B12612113663300AB48E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D0B12632113663300AB48E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D0B126B2113686000AB48E6 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		3D0B126C2113686000AB48E6 /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
 		3D0B126D2113686000AB48E6 /* UserRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRating.swift; sourceTree = "<group>"; };
 		3D0B127121141E0900AB48E6 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
@@ -40,6 +51,19 @@
 		3D9F2C65211639E7006EFBD7 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		3D9F2C672116B391006EFBD7 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
 		3D9F2C692116B3C0006EFBD7 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		3DE4F4D12117FEEB00CC54DA /* batman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batman.png; sourceTree = "<group>"; };
+		3DE4F4D22117FEEB00CC54DA /* blackstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackstar.png; sourceTree = "<group>"; };
+		3DE4F4D32117FEEB00CC54DA /* xmen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xmen.png; sourceTree = "<group>"; };
+		3DE4F4D42117FEEB00CC54DA /* jurassic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jurassic.png; sourceTree = "<group>"; };
+		3DE4F4D52117FEEB00CC54DA /* lordoftherings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lordoftherings.png; sourceTree = "<group>"; };
+		3DE4F4D62117FEEB00CC54DA /* pirates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pirates.png; sourceTree = "<group>"; };
+		3DE4F4D72117FEEC00CC54DA /* ultimatepixar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ultimatepixar.png; sourceTree = "<group>"; };
+		3DE4F4D82117FEEC00CC54DA /* madmax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = madmax.png; sourceTree = "<group>"; };
+		3DE4F4D92117FEEC00CC54DA /* pixar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pixar.png; sourceTree = "<group>"; };
+		3DE4F4DA2117FEEC00CC54DA /* terminator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terminator.png; sourceTree = "<group>"; };
+		3DE4F4DB2117FEEC00CC54DA /* starwars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starwars.png; sourceTree = "<group>"; };
+		3DE4F4DC2117FEEC00CC54DA /* transformer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transformer.png; sourceTree = "<group>"; };
+		3DE4F4DD2117FEEC00CC54DA /* yellowstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowstar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +124,7 @@
 		3D0B126A2113668B00AB48E6 /* supporting files */ = {
 			isa = PBXGroup;
 			children = (
-				3D0B126B2113686000AB48E6 /* images */,
+				3DE4F4CA2117FE9700CC54DA /* images */,
 				3D0B126C2113686000AB48E6 /* movies.json */,
 				3D0B126D2113686000AB48E6 /* UserRating.swift */,
 			);
@@ -121,6 +145,27 @@
 				3D9F2C672116B391006EFBD7 /* MovieTableViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DE4F4CA2117FE9700CC54DA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3DE4F4D12117FEEB00CC54DA /* batman.png */,
+				3DE4F4D22117FEEB00CC54DA /* blackstar.png */,
+				3DE4F4D42117FEEB00CC54DA /* jurassic.png */,
+				3DE4F4D52117FEEB00CC54DA /* lordoftherings.png */,
+				3DE4F4D82117FEEC00CC54DA /* madmax.png */,
+				3DE4F4D62117FEEB00CC54DA /* pirates.png */,
+				3DE4F4D92117FEEC00CC54DA /* pixar.png */,
+				3DE4F4DB2117FEEC00CC54DA /* starwars.png */,
+				3DE4F4DA2117FEEC00CC54DA /* terminator.png */,
+				3DE4F4DC2117FEEC00CC54DA /* transformer.png */,
+				3DE4F4D72117FEEC00CC54DA /* ultimatepixar.png */,
+				3DE4F4D32117FEEB00CC54DA /* xmen.png */,
+				3DE4F4DD2117FEEC00CC54DA /* yellowstar.png */,
+			);
+			name = images;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,11 +226,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D0B126E2113686000AB48E6 /* images in Resources */,
+				3DE4F4EA2117FEEC00CC54DA /* yellowstar.png in Resources */,
 				3D0B12622113663300AB48E6 /* LaunchScreen.storyboard in Resources */,
+				3DE4F4E52117FEEC00CC54DA /* madmax.png in Resources */,
+				3DE4F4E82117FEEC00CC54DA /* starwars.png in Resources */,
 				3D0B126F2113686000AB48E6 /* movies.json in Resources */,
 				3D0B125F2113663300AB48E6 /* Assets.xcassets in Resources */,
+				3DE4F4E92117FEEC00CC54DA /* transformer.png in Resources */,
+				3DE4F4E72117FEEC00CC54DA /* terminator.png in Resources */,
+				3DE4F4E12117FEEC00CC54DA /* jurassic.png in Resources */,
+				3DE4F4E32117FEEC00CC54DA /* pirates.png in Resources */,
+				3DE4F4DF2117FEEC00CC54DA /* blackstar.png in Resources */,
+				3DE4F4DE2117FEEC00CC54DA /* batman.png in Resources */,
 				3D0B125A2113663200AB48E6 /* Main.storyboard in Resources */,
+				3DE4F4E22117FEEC00CC54DA /* lordoftherings.png in Resources */,
+				3DE4F4E42117FEEC00CC54DA /* ultimatepixar.png in Resources */,
+				3DE4F4E02117FEEC00CC54DA /* xmen.png in Resources */,
+				3DE4F4E62117FEEC00CC54DA /* pixar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -336,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -353,6 +410,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5SQFG95Y4R;
 				INFOPLIST_FILE = Movie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,6 +429,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5SQFG95Y4R;
 				INFOPLIST_FILE = Movie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

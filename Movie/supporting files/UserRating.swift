@@ -9,13 +9,15 @@
 import UIKit
 
 class UserRating: UIView {
-
+    
     var rating = 0 {
         didSet {
             //Trigger a layout update
             setNeedsLayout()
         }
     }
+    
+    var ratingUpdateHandler: ((_ rating: Int) -> Void)?
     
     var ratingButtons = [UIButton]()
     var spacing = 5
@@ -34,6 +36,7 @@ class UserRating: UIView {
             button.setImage(emptyStarImage, for: UIControl.State.normal)
             button.setImage(filledStarImage, for: UIControl.State.selected)
             button.adjustsImageWhenHighlighted = false
+            button.addTarget(self, action: #selector(UserRating.didTapRatingButton(button:)), for: .touchUpInside)
             
             ratingButtons += [button]
             addSubview(button)
@@ -65,5 +68,12 @@ class UserRating: UIView {
             button.isSelected = x < rating
             x += 1
         }
+    }
+    
+    @objc private func didTapRatingButton(button: UIButton) {
+        guard let buttonIndex = ratingButtons.index(of: button) else { return }
+        
+        rating = buttonIndex + 1
+        ratingUpdateHandler?(rating)
     }
 }

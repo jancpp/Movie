@@ -9,50 +9,90 @@
 import UIKit
 import CoreData
 
-private var coreData = CoreDataStack()
-private var fetchResultController: NSFetchedResultsController<Movie>?
-
 class MovieTableViewController: UITableViewController {
+    
+    private var coreData = CoreDataStack()
+    private var fetchedResultsController: NSFetchedResultsController<Movie>?
+    private var movieService: MovieService?
+    @IBAction func resetRatingsAction(_ sender: UIBarButtonItem) {
+        movieService?.resetAllRatings(completion: { [weak self] (success) in
+            if success {
+                DispatchQueue.main.async {
+                    self?.tableView.reloadData()
+                }
+            }
+        })
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        movieService = MovieService(managedObjectContext: coreData.persistentContainer.viewContext)
         loadData()
     }
-
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
     // MARK: - Table view data source
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
-       
-        if let sections = fetchResultController?.sections {
+        if let sections = fetchedResultsController?.sections {
             return sections.count
         }
         return 0
     }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if let sections = fetchResultController?.sections {
+        if let sections = fetchedResultsController?.sections {
             return sections[section].numberOfObjects
         }
         return 0
     }
-
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "movieCell", for: indexPath) as! MovieTableViewCell
         
-        if let movie = fetchResultController?.object(at: indexPath) {
-            cell.cofigureCell(movie: movie)
+        if let movie = fetchedResultsController?.object(at: indexPath) {
+            cell.configureCell(movie: movie)
+            cell.userRatingHandler = { [weak self] (newRating) in
+                // movieservice to update rating
+                self?.movieService?.updateRating(for: movie, with: newRating)
+            }
         }
-
+        
         return cell
     }
-
-    // MARK: - private
+    
+    // MARK: - Private
     
     private func loadData() {
-        fetchResultController = MovieService.getMovies(moc: coreData.persistentContainer.viewContext)
+        fetchedResultsController = movieService?.getMovies()
     }
+}
 
 
-
+extension MovieTableViewController: NSFetchedResultsControllerDelegate {
+    func controllerWillChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
+        tableView.beginUpdates()
+    }
+    
+    func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChange anObject: Any, at indexPath: IndexPath?, for type: NSFetchedResultsChangeType, newIndexPath: IndexPath?) {
+        guard let indexPath = indexPath else { return }
+        
+        switch type {
+        case .update:
+            tableView.reloadRows(at: [indexPath], with: .fade)
+            
+        default:
+            break
+        }
+    }
+    
+    func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
+        tableView.endUpdates()
+    }
 }

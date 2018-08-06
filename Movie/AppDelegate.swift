@@ -65,7 +65,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let data = try? Data(contentsOf: url),
             let jsonResult = try? JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? NSDictionary,
             let jsonArray = jsonResult?.value(forKey: "movie") as? NSArray
-        else { return }
+            else { return }
         
         for json in jsonArray {
             guard
@@ -73,7 +73,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 let title = movieData["name"] as? String,
                 let userRating = movieData["rating"],
                 let format = movieData["format"] as? String
-            else { return }
+                else { return }
             
             let movie = Movie(context: moc)
             movie.title = title
@@ -81,9 +81,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             movie.format = format
             
             if  let imageName = movieData["image"] as? String,
+                // for Xcode 10.0
                 let image = UIImage(named: imageName),
                 let imageData = image.jpegData(compressionQuality: 1.0) {
                 movie.image = NSData.init(data: imageData)
+                // for Xcode 9.4
+                //                let image = UIImage.init(named: imageName),
+                //                let imageData = UIImageJPEGRepresentation(image, 1.0) {
+                //                movie.image = NSData.init(data: imageData)
             }
         }
         
