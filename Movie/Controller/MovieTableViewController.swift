@@ -24,7 +24,7 @@ class MovieTableViewController: UITableViewController {
         })
     }
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -67,10 +67,31 @@ class MovieTableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            guard let movieToDelete = fetchedResultsController?.object(at: indexPath) else { return }
+            
+            let confirmDeleteAlertController = UIAlertController(title: "Remove Movie", message: "Are you sure you would like to delete \"\(movieToDelete.title ?? "")\"", preferredStyle: .actionSheet)
+            
+            let deleteActoin = UIAlertAction(title: "Delete", style: .default) { (action) in
+                self.coreData.persistentContainer.viewContext.delete(movieToDelete)
+                self.coreData.saveContext()
+            }
+            
+            let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+            
+            confirmDeleteAlertController.addAction(deleteActoin)
+            confirmDeleteAlertController.addAction(cancelAction)
+            
+            present(confirmDeleteAlertController, animated: true, completion: nil)
+        }
+    }
+    
     // MARK: - Private
     
     private func loadData() {
         fetchedResultsController = movieService?.getMovies()
+        fetchedResultsController?.delegate = self
     }
 }
 
@@ -86,6 +107,9 @@ extension MovieTableViewController: NSFetchedResultsControllerDelegate {
         switch type {
         case .update:
             tableView.reloadRows(at: [indexPath], with: .fade)
+            
+        case .delete:
+            tableView.deleteRows(at: [indexPath], with: .fade)
             
         default:
             break
